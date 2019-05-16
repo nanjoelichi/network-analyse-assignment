@@ -61,7 +61,7 @@ def comment(com):
                 print(x)
                 df = df.append(x, ignore_index=True)
     print(df)
-    df.to_csv('qunacom.csv', encoding='utf-8', index=False, mode='a', header=False)
+    df.to_csv('qunaerpic.csv', encoding='utf-8', index=False, mode='a', header=False)
     #print(df)
 def sum_pro(pro,k):#每个省有多少个景点
     p=[]
